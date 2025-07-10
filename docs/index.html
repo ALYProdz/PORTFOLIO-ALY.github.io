@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>WPH Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="./images/logo1.png" alt="ALL-IN-ONE" width="90px">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#certifications">Certificaciones</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="language-toggle">🌐 EN</button>
+  </header>
+
+  <section id="home">
+    <h1>Bienvenido a mi portafolio</h1>
+    <h2>Mi nombre es WEDSON PETIT HOMME</h2>
+  </section>
+
+
+    <!--
+  Section about me
+    -->
+    <section id="about">
+  <h2 id="Sobremi">Sobre Mí</h2>
+  <div class="about-container">
+    <img src="./Image/WhatsApp Image 2024-12-01 at 17.07.39_b03cb94a.jpg" class="profile_image" title="Wedson P H"/>
+    <div class="about-text">
+      <p>
+      Soy analista de datos, web desarrollador, y diseno grafico. Me apasiona convertir datos sin procesar en información clara y de gran impacto. Actualmente estoy cursando mi licenciatura en Informática en la Universidad del Pueblo.
+        <a target="_blank" class="linkq" href="https://www.uopeople.edu/?utm_source=google&utm_medium=cpc&utm_campaign=ggl-search_brand-bmm_worldwide&utm_term=%2Buopeople&utm_content=78968317387&gad_source=1&gclid=CjwKCAiA0rW6BhAcEiwAQH28IkO-OWTrxnIJhYlFgSqMCz6VBjcfTz65VY7goETv9f7_wVb3hnlxgxoCcpUQAvD_BwE">(UoPeoPle) </a> 
+        and have been 
+            building my skills across programming, data analysis, and web development. <br> <br>
+
+            Trabajo con confianza con herramientas como Python, SQL, R, Power BI, Excel, Java, HTML, CSS y JavaScript, y cuento con certificaciones que incluyen Google Data Analytics. <a target="_blank" class="linkq" href="https://coursera.org/share/712d66ffc5d6eb94be4d738f97e9b1c2">Google Data Analytics</a> de <a target="_blank" class="linkq" href="https://www.google.com/">Google</a>,  <a target="_blank" class="linkq" href="https://www.datacamp.com/certificate/DAA0010396844067">Analista de datos asociado</a>  de <a target="_blank" class="linkq" href="https://www.datacamp.com/">DataCamp , etcétera.</a> 
+            <br><br>
+            Nacido en Puerto Príncipe, Haití, aporto una perspectiva global a todo lo que hago y me comunico con fluidez en cuatro idiomas: francés, criollo haitiano, inglés y español. Ya sea creando paneles interactivos, escribiendo código limpio o creando sitios web adaptables, siempre estoy motivado para aprender, mejorar y aportar valor.
+ 
+      </p>
+    </div>
+  </div>
+</section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+
+      <!-- 14 habilidades -->
+      <div class="skill" data-aos="fade-up">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="HTML">
+            <p>HTML: Estructura y semántica de páginas web.</p>
+        </div>
+<div class="skill" data-aos="fade-up">
+  <img src="data:image/png;base64,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" width="150px" height="auto" alt="CSS">
+  <p>CSS: Diseño visual, responsivo y animaciones.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="data:image/png;base64,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" height="200px" alt="JavaScript">
+  <p>JavaScript: Lógica e interactividad en tiempo real.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1200px-R_logo.svg.png" alt="R">
+  <p>R: Tipado estático para proyectos grandes.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React">
+  <p>React: Interfaces dinámicas con componentes.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxDbHKmus-zm5gZTAAP8S9qvQE2E0yyFyRg&s" alt="Node.js">
+  <p>Node.js: Servidores y lógica de backend.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://img.icons8.com/?size=512&id=SDVmtZ6VBGXt&format=png" alt="Express">
+  <p>Express: Creación de APIs rápidas y seguras.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png" alt="MongoDB">
+  <p>MongoDB: Base de datos NoSQL escalable.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwuqWn7rCVhqZ_pSlxwVUzlZtFWaOMdbm28A&s" alt="SQL">
+  <p>SQL: Bases de datos relacionales y consultas.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Fj0zoSD0e4V7siSTI221US9cMrtjc8A2og&s" alt="Python">
+    <p>Python: Lenguaje versátil para automatización, análisis de datos, desarrollo web y machine learning con bibliotecas modernas.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.jpg" alt="Java">
+  <p>JAVA: Diseño rápido y adaptable.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://images.icon-icons.com/2415/PNG/512/git_original_wordmark_logo_icon_146510.png" alt="Git">
+  <p>Git: Control de versiones colaborativo.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" alt="GitHub">
+  <p>GitHub: Gestión de proyectos y repositorios.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Logo.jpg" alt="powerbi">
+    <p>Power BI: Creación de dashboards interactivos y visualizaciones profesionales para la toma de decisiones basada en datos.</p>
+</div>
+
+<div class="skill" data-aos="fade-up">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Excel">
+    <p>Excel: Dominio de hojas de cálculo, fórmulas, gráficos y tablas dinámicas para gestionar y analizar datos eficientemente.</p>
+</div>
+
+<div class="skill">
+  <img src="https://images.seeklogo.com/logo-png/24/2/coreldraw-x7-logo-png_seeklogo-248595.png" alt="CorelDRAW">
+  <p>CorelDRAW: Dominio en ilustración vectorial y diseño gráfico para logotipos, carteles, folletos y materiales publicitarios de alta calidad.</p>
+</div>
+
+<div class="skill">
+  <img src="https://logos-world.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo-2015-2019.png" alt="Adobe Photoshop">
+  <p>Adobe Photoshop: Edición profesional de imágenes, retoque fotográfico, composiciones creativas y diseño digital para web e impresión.</p>
+</div>
+
+
+</div>
+
+<!--Section for project-->
+</section>
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
+      <!-- 7 proyectos -->
+
+      <div class="project">
+        <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Iris_flower%20Analysis.ipynb" target="_blank" color = "black">
+  <img src="Image/ANA/corr_plot_heatmap.png" alt="Iris Project">
+  <h3>Analyze and Prediction of Iris Flower</h3></a>
+  <p>Análisis exploratorio y modelo de clasificación para predecir el tipo de flor iris usando Python y bibliotecas como Scikit-learn y Matplotlib.</p>
+        
+</div>
+
+<div class="project">
+ <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/netflix_movies.ipynb" target="_blank" color = "black"> 
+    <img src="Image/netflixmredpopcorn.jpg" alt="Netflix Analysis">
+  <h3>Netflix Movies Analysis</h3></a>
+  <p>Estudio de tendencias de contenido, duración y géneros de películas en Netflix mediante análisis de datos con Python y Pandas.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Matchresultmenandwomen.ipynb" target="_blank" color = "black">
+  <img src="Image/soccer-pitch.jpg" alt="Gym Dashboard">
+  <h3>Match Result men and women</h3></a>
+  <p>Visualización de métricas de entrenamiento físico en un dashboard interactivo creado con Python, Dash y Plotly.</p>
+
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Sales%20Datasets.ipynb" target="_blank" color = "black">
+  <img src="https://thumbs.dreamstime.com/b/businessman-using-tablet-laptop-analyzing-sales-data-economic-growth-graph-chart-business-strategy-digital-marketing-154742021.jpg" alt="Sales Data">
+  <h3>Analyze Sales Data</h3></a>
+  <p>Estudio de ventas históricas y predicción de ingresos usando Python, con gráficos interactivos y estadísticas clave.</p>
+
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Analyze%20the%20Popularity%20of%20Programming%20Languages.ipynb" target="_blank" color = "black">
+  <img src="Image/mentalhealth.jpg" alt="Languages Popularity">
+  <h3>Popularity of Programming Languages</h3></a>
+  <p>Análisis comparativo del uso de distintos lenguajes de programación a nivel mundial utilizando fuentes como GitHub y Stack Overflow.</p>
+
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Schools.ipynb" target="_blank">
+  <img src="Image/schoolbus.jpg" alt="School Data Project">
+  <h3>School Datasets Analysis Using Python</h3></a>
+  <p>Proyecto centrado en explorar información educativa como calificaciones, asistencia, rendimiento por materia y condiciones socioeconómicas usando Python. Se emplearon bibliotecas como Pandas, Matplotlib y Seaborn para limpiar datos, generar visualizaciones y extraer insights sobre el impacto de diversos factores en el desempeño académico. Ideal para comprender patrones y ayudar a mejorar la gestión escolar.</p>
+</div>
+
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/R/Analyze%20the%20Popularity%20of%20Programming%20Languages.R" target="_blank" color = "black">
+  <img src="Image/ANA/Python over the time.png" alt="Evolution Python">
+  <h3>Evolution of Programming Languages Over Time (Python)</h3></a>
+  <p>Visualización cronológica del crecimiento y uso de lenguajes de programación desde los años 2000 hasta hoy, usando Python y Seaborn.</p>
+</div>
+
+<div class="project">
+<a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/Nobelprize%20(1).ipynb" target="_blank" color = "black">
+      <img src="Image/Nobel_Prize.png" alt="Nobel Prize">
+  <h3>Nobel Prize Analysis</h3></a>
+  <p>Examen de tendencias en premios Nobel por país, categoría y género usando técnicas de limpieza y visualización con Python.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/R/Analyze%20the%20Popularity%20of%20Programming%20Languages2.Rmd" target="_blank" color = "black">
+  <img src="Image/ANA/R over the time.png" alt="Evolution R">
+  <h3>Evolution of Programming Languages Over Time (R)</h3></a>
+  <p>Representación gráfica del uso de los lenguajes de programación más populares en distintos sectores usando herramientas de R como ggplot2.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/StudentDB%20(1).ipynb" target="_blank">
+  <img src="Image/mentalhealth.jpg" alt="Mental Health SQL Project">
+  <h3>Analyzing Students' Mental Health</h3></a>
+  <p>Proyecto enfocado en estudiar los factores que afectan la salud mental de los estudiantes universitarios mediante el análisis de datos estructurados con SQL. Se realizaron consultas para descubrir patrones relacionados con género, entorno educativo, niveles de estrés, acceso a apoyo psicológico y frecuencia de síntomas. El objetivo fue comprender el impacto de variables académicas y sociales en el bienestar emocional estudiantil.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/PYTHON/YoutubeAnalysis%20(3).ipynb" target="_blank">
+  <img src="Image/netflixmredpopcorn.jpg" alt="YouTube Dataset Analysis">
+  <h3>YouTube Dataset Analysis</h3></a>
+  <p>Proyecto enfocado en explorar y visualizar datos de YouTube como vistas, duración, categorías y popularidad de los videos. Utilizando Python y bibliotecas como Pandas, Matplotlib y Seaborn, se identificaron patrones de contenido viral, horarios de mayor tráfico y tendencias por país. El análisis permite comprender el comportamiento de los usuarios y optimizar estrategias de contenido digital.</p>
+</div>
+
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/Power%20BI/Youtube%20analysis.pbix" target="_blank" color = "black">
+  <img src="Image/netflixmredpopcorn.jpg" alt="YouTube Data">
+  <h3>Analyze and Prediction of YouTube Data</h3></a>
+  <p>Estudio de métricas como visualizaciones, duración y engagement en YouTube, con modelos predictivos creados en Python.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/R/irisflower.R" target="_blank" color = "black">
+  <img src="Image/ANA/histsepspeices.png" alt="Iris Simple Analysis">
+  <h3>Analyze of Iris Flowers (R)</h3></a>
+  <p>Exploración básica de las características de flores Iris con técnicas estadísticas y visualización en Python.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/R/netflixmovies.Rmd" target="_blank">
+  <img src="Image/prog_lang.jpg" alt="Top Languages R">
+  <h3>Evolution of Top 5 High-Demand Programming Languages (R)</h3></a>
+  <p>Análisis del impacto y demanda de los cinco lenguajes más solicitados a lo largo del tiempo usando R y visualizaciones dinámicas.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/ALL-IN-ONE-PROJECT-1/blob/main/R/netflixmovies.Rmd" target="_blank">
+  <img src="Image/netflixmredpopcorn.jpg" alt="Netflix R">
+  <h3>Analyze Movies from Netflix (R)</h3></a>
+  <p>Investigación de tendencias de películas en Netflix usando herramientas de visualización y manipulación de datos con R.</p>
+</div>
+
+<div class="project">
+    
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrTd60kHx-5utQjxw-nYWGxktjTIvW7qd4EA&s" alt="Text Analysis Tool">
+  <h3>Text Analysis Tools</h3>
+  <p>Aplicación desarrollada en Java que permite analizar grandes volúmenes de texto y extraer información relevante como frecuencia de palabras, detección de patrones y segmentación semántica.</p>
+</div>
+
+<div class="project">
+  <img src="https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww" alt="Ecommerce System">
+  <h3>Simple Ecommerce System</h3>
+  <p>Sistema de tienda online con funcionalidades básicas como listado de productos, carrito de compras, pagos simulados y gestión de usuarios. Desarrollado con HTML, CSS, JavaScript y backend modular.</p>
+</div>
+
+<div class="project">
+    <a href="https://github.com/ALYProdz/pythonProject1/blob/main/ALYCalculatorAly.py" target="_blank" color = "black">
+  <img src="https://content.instructables.com/F3B/E0EI/KWM44QKV/F3BE0EIKWM44QKV.jpg?auto=webp" alt="Python Calculator">
+  <h3>Simple Calculator Using Kivy (Python)</h3></a>
+  <p>Calculadora interactiva desarrollada en Python con interfaz gráfica (Tkinter) para realizar operaciones matemáticas básicas con una experiencia amigable para el usuario.</p>
+</div>
+
+<div class="project" data-aos="fade-up">
+    <a href="github.com" target="_blank" color = "black">
+  <img src="Image/Blog.png" alt="Proyecto 5">
+  <h3>Blog Personal</h3></a>
+  <p>Sistema de blog con rutas protegidas en Node.js y MongoDB.</p>
+  
+</div>
+
+    </div>
+  </section>
+
+  <section id="certifications">
+  <h2>Certificaciones</h2>
+  <div class="certifications-grid">
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/Associate Data analysis SQL.png" alt="SQL Certificate">
+      <h3>Associate Data Analysis in SQL</h3>
+      <p>Emitido por DataCamp. Análisis de datos utilizando SQL para consultas y gestión de bases de datos.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/With Python.png" alt="Python Certificate">
+      <h3>Data Analysis in Python</h3>
+      <p>Emitido por DataCamp. Uso de librerías como Pandas y NumPy para análisis y visualización de datos.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/with r.png" alt="R Certificate">
+      <h3>Data Analysis in R</h3>
+      <p>Emitido por DataCamp. Manipulación de datos, modelado estadístico y gráficos en R.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/Google data analytics.png" alt="Google Data Analytics">
+      <h3>Google Data Analytics</h3>
+      <p>Emitido por Google. Fundamentos sólidos de análisis de datos, limpieza, visualización y toma de decisiones.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/Data ana mas.png" alt="Master Data Analytics">
+      <h3>Master Data Analytics</h3>
+      <p>Emitido por Udemy. Curso intensivo en herramientas modernas de análisis de datos, desde Excel hasta Python.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/Java full.png" alt="Java FullStack">
+      <h3>Java FullStack Developer</h3>
+      <p>Emitido por Coursera. Desarrollo completo con Java Spring Boot, MySQL y tecnologías frontend.</p>
+    </div>
+    <div class="certification-card" data-aos="fade-up">
+      <img src="Certificate/career/Using Py for rese.png" alt="Python Research">
+      <h3>Using Python For Research</h3>
+      <p>Emitido por Harvard University. Aplicación de Python en entornos académicos y científicos.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>📧 Email: wedsonpetithomme0@gmail.com<br>
+       📞 Teléfono: +1 849 388 6735<br>
+       🔗 LinkedIn: https://www.linkedin.com/in/wedson-petit-homme-947571239/<br>
+       💻 GitHub: https://github.com/ALYProdz</p>
+  </section>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

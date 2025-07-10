@@ -1,0 +1,230 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148879890.jpg?semt=ais_hybrid&w=740");
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f0101;
+  padding: 20px 40px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+#language-toggle {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Secciones */
+section {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+section img {
+  max-width: 40%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Habilidades */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.skill img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Proyectos */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Certificaciones y Contacto */
+#certifications, #contact {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+
+
+/*Certification*/
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.certification-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.certification-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/*Actualiza en todo tipo de mobiles
+
+Animaciones visuales con AOS (Animate On Scroll)
+
+*/
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .skills-grid,
+  .projects-grid,
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  section img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+}
+
+
+/*Section about me*/
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  color : rgb(243, 238, 238);
+  background-color: transparent blue ;
+}
+
+.about-container img {
+  width: 120px; /* Tamaño ligeramente más grande */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-container img:hover {
+  transform: scale(1.05);
+}
+
+.about-container .profile_image{
+    width: 500%;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+#about, #Sobremi{
+    font-size: 150%;
+}
+
+h2, h1{
+    color: #ffffff;
+}
+
+#contact{
+    color :#ffffff;
+    background-color: rgb(17, 17, 17);
+}
+
+#certifications h2{
+    color: black;
+}
